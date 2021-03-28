@@ -16,3 +16,11 @@ body{
 .height-80{
     min-height: 80vh;
 }
+
+.about-picture{
+    background: url(./img/Recipe.jpg)center/cover no-repeat fixed;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
