@@ -4,40 +4,127 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<!-- bootsrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <!-- fontawesome -->
+	<script src="./js/all.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+	<!--  -->
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<div class="container">
-	<h1 class="page-header">Welcome to bootstrap<small> bootstrap 101</small></h1>
-	<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla! <mark>odit magnam nam quasi,</mark></p>
-	<p>Lorem ipsum dolor sit amet consectetur <del>adipisicing elit. Delectus,</del> nulla! Facere exercitationem odit magnam nam quasi, dignissimos omnis cumque aperiam dolores harum porro laboriosam. Soluta maxime at quod quo eos!</p>
- 	</div>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<header id="header" class="bg-dark">
+		<div class="container">
+			<div class="row height align-items-center">
+				<div class="col">
+					<h1 class="text-danger text-uppercase font-weight-bold font-italic">
+						<strong>my first bootstrap</strong>
+						<small class="text-light">website</small>
+					</h1>
+					<p class="text-muted lead py-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ad accusantium esse et odit consequuntur rem voluptatibus fugit id amet!</p>
+					<a href="#" class="btn btn-outline-primary btn-lg m-2 text-capitalize">press here</a>
+					<a href="#" class="btn btn-outline-success btn-lg m-2 text-capitalize">press here</a>
+				</div>
+			</div>
+		</div>
+	</header>
 
-	<blockquote class="blockquote" >
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, quam!</p>
-	</blockquote>
+	<!-- end of header -->
+	<!-- skils section -->
+	<section id="skills" class="py-5 bg-white">
+		<div class="container">
+			<!-- title -->
+			<div class="row">
+				<div class="col text-center">
+					<h1 class="display-4 text-uppercase text-dark mb-0">
+						<strong>skills</strong>
+					</h1>
+					<div class="title-underline bg-danger"></div>
+					<p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<!-- end of title -->
+			<div class="row">
+<!-- single col -->
+<div class="col-md-6 col-lg-3 text-center my-4">
+	<i class="fab fa-node-js fa-5x text-danger"></i>
+	<h3 class="text-uppercase my-3">node.js</h3>
+	<p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum doloribus dolores, ab nobis enim beatae maiores nostrum omnis fuga.</p>
+	<a href="#" class="btn btn-outline-danger btn-block text-uppercase">press here</a>
+</div>
+<div class="col-md-6 col-lg-3 text-center my-4">
+	<i class="fab fa-html5 fa-5x text-danger"></i>
+	<h3 class="text-uppercase my-3">html5</h3>
+	<p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum doloribus dolores, ab nobis enim beatae maiores nostrum omnis fuga.</p>
+	<a href="#" class="btn btn-outline-danger w-75 text-uppercase">press here</a>
+</div>
+<div class="col-md-6 col-lg-3 text-center my-4">
+	<i class="fab fa-css3 fa-5x text-danger"></i>
+	<h3 class="text-uppercase my-3">cc3</h3>
+	<p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum doloribus dolores, ab nobis enim beatae maiores nostrum omnis fuga.</p>
+	<a href="#" class="btn btn-outline-danger w-50 text-uppercase">press here</a>
+</div>
+<div class="col-md-6 col-lg-3 text-center my-4">
+	<i class="fab fa-js fa-5x text-danger"></i>
+	<h3 class="text-uppercase my-3">js</h3>
+	<p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum doloribus dolores, ab nobis enim beatae maiores nostrum omnis fuga.</p>
+	<a href="#" class="btn btn-outline-danger w-25 text-uppercase">press here</a>
+</div>
+			</div>
+		</div>
+	</section>
+	<!-- end of skills section -->
+	<!-- about section -->
 
-	<div class="container">
-		<form>
-			<div class="form-group">
-				<label>Name</label>
-				<input type="text" class="form-control" placeholder="Add Name" name="">
+	<section id="about" class="bg-info">
+		<div class="comtainer-fluid">
+			<div class="row">
+				<!-- about img col -->
+				<div class="col-md-6 about-picture height-80"></div>
+				<!-- about text col -->
+				<div class="col-md-6 about-text height-80 px-5">
+				<!-- this is for centering -->
+				<div class="about-text-center">
+			<!-- title -->
+			<div class="row">
+				<div class="col text-center">
+					<h1 class="display-4 text-uppercase text-dark mb-0">
+						<strong>about</strong>
+					</h1>
+					<div class="title-underline bg-warning"></div>
+					<p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor sit amet.</p>
+				</div>
 			</div>
-			<div class="form-group">
-				<label>Email</label>
-				<input type="text" class="form-control" placeholder="Add Email" name="">
-			</div>
-			<div class="form-group">
-				<label>Massage</label>
-				<textarea class="form-control" placeholder="Add Massage"></textarea>
-			</div>
-			<div class="form-group">
-				<label>Upload File</label>
-				<input type="file">
-				<p class="help-block"> Only png and jpg allowed</p>
-			</div>
-		</form>
+			<!-- end of title -->
+			<!-- single item -->
+    <div class="checkbox-item d-flex">
+		<i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+		<div class="text-light lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error dignissimos veritatis porro nisi quod nobis ut perspiciatis ducimus eaque nesciunt.</div>
 	</div>
+	<!-- end of single item -->
+			<!-- single item -->
+    <div class="checkbox-item d-flex">
+		<i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+		<div class="text-light lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error dignissimos veritatis porro nisi quod nobis ut perspiciatis ducimus eaque nesciunt.</div>
+	</div>
+	<!-- end of single item -->
+			<!-- single item -->
+    <div class="checkbox-item d-flex">
+		<i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+		<div class="text-light lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error dignissimos veritatis porro nisi quod nobis ut perspiciatis ducimus eaque nesciunt.</div>
+	</div>
+	<!-- end of single item -->
+			</div>
+			
+		</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./jquery-3.6.0.min.js"></script>
 </body>
 </html>
